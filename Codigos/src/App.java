@@ -12,7 +12,8 @@ public class App {
         int numero1 = Integer.parseInt(x);
         int numero2 = Integer.parseInt(y);
         int numero3 = Integer.parseInt(z);
+        int suma = numero1 + numero2 + numero3;
         
-
+        System.out.println("La suma de " + numero1 + " y " + numero2 + " y " + numero3 + " es " + suma);
     }
 }
