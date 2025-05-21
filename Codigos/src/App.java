@@ -13,7 +13,9 @@ public class App {
         int numero2 = Integer.parseInt(y);
         int numero3 = Integer.parseInt(z);
         int suma = numero1 + numero2 + numero3;
+        double promedio = suma / 3;
         
         System.out.println("La suma de " + numero1 + " y " + numero2 + " y " + numero3 + " es " + suma);
+        System.out.println(" El promedio de los 3 numeros es :" + promedio);
     }
 }
