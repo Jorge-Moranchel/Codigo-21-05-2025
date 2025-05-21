@@ -9,5 +9,10 @@ public class App {
         String y = JOptionPane.showInputDialog("Dame el segundo numero");
         String z = JOptionPane.showInputDialog("Dame el tercer numero");
 
+        int numero1 = Integer.parseInt(x);
+        int numero2 = Integer.parseInt(y);
+        int numero3 = Integer.parseInt(z);
+        
+
     }
 }
